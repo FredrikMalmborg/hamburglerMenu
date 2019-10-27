@@ -1,0 +1,50 @@
+:root {
+    --primary: #ffd152;
+    --secondary: #222;
+}
+
+header > a {
+    /*absolute-top-right*/
+    display: block;
+}
+
+header {
+    /*fill*/
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-nav{
+    display: none; /*flex*/
+
+
+    margin:auto;
+    flex-direction: column;
+    align-items: center;
+}
+span {
+    /*absolute-top-left*/
+    display: block;
+}
+.head-nav > *:not(:last-child){
+    border-bottom: 1px solid var(--primary);
+}
+
+.absolute-top-left {
+    position: absolute;
+    top:0;
+    left: 0;
+
+}
+.absolute-top-right {
+    position: absolute;
+    top:0;
+    right: 0;
+}
+.fill {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+}
