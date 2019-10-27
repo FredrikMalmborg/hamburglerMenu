@@ -77,7 +77,7 @@ span {
     padding: 0.2rem 0.5rem 0.2rem 0.1rem;
     border: 1px solid var(--primary)
 }
-i {
+.burgler {
     padding:1rem;
 }
 

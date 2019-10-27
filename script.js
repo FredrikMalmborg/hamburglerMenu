@@ -1,5 +1,5 @@
-let sizeUp = document.querySelector(".remList a:first-child"),
-    sizeDown = document.querySelector(".remList a:last-child"),
+let sizeUp = document.querySelector(".up"),
+    sizeDown = document.querySelector(".down"),
     fontSize = 1,
     burgler = document.querySelector(".burgler"),
     toggle = true
