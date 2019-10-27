@@ -24,10 +24,10 @@ burgler.onclick = function () {
 }
 
 sizeUp.onclick = function () {
+    fontSize *= 1.05
     document.querySelector("html").style.fontSize = fontSize + "rem"
-    return fontSize *= 1.05
 }
 sizeDown.onclick = function () {
+    fontSize *= 0.95
     document.querySelector("html").style.fontSize = fontSize + "rem"
-    return fontSize *= 0.95
 }
