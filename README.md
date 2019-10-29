@@ -1,6 +1,9 @@
 # hamburglerMenu
 a simple page with a semifunctional ha-m-enu
 ## description
-a practical exercise and introduction to git
+has mobile mode
+go there for epic color change
+click the burger get the burger
+BIG WIN
 
-[a link](index.html) 
+[HERE](https://fredrikmalmborg.github.io/hamburglerMenu/.) 
